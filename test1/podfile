@@ -1,0 +1,5 @@
+use_frameworks! platform :ios, '8.0'
+target ‘test1’ do
+pod 'AFNetworking', '~> 3.0'
+pod 'SwiftCloudant', :git => 'https://github.com/cloudant/swift-cloudant.git'
+end
