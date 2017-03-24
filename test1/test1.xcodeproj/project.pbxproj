@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		782FCA5AB27F02D1336588A6 /* Pods_test1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476CDBE2E70362BB5C06EDA8 /* Pods_test1.framework */; };
 		BA19C26A1E7BC770007BF5BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19C2691E7BC770007BF5BE /* LoginViewController.swift */; };
-		BA19C26C1E7BC836007BF5BE /* doclistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19C26B1E7BC836007BF5BE /* doclistViewController.swift */; };
 		BA19C26E1E83A2CF007BF5BE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19C26D1E83A2CF007BF5BE /* NavigationController.swift */; };
+		BA19C2721E83B2A0007BF5BE /* FakedateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19C2711E83B2A0007BF5BE /* FakedateModel.swift */; };
+		BA19C2741E84F1ED007BF5BE /* doclistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19C2731E84F1ED007BF5BE /* doclistViewController.swift */; };
 		BA5884961E6FF292001BBD74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5884951E6FF292001BBD74 /* AppDelegate.swift */; };
 		BA5884981E6FF292001BBD74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5884971E6FF292001BBD74 /* ViewController.swift */; };
 		BA58849B1E6FF292001BBD74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5884991E6FF292001BBD74 /* Main.storyboard */; };
@@ -45,8 +46,9 @@
 		7AD8F70776C2C95D1B32F562 /* Pods-test1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test1.release.xcconfig"; path = "Pods/Target Support Files/Pods-test1/Pods-test1.release.xcconfig"; sourceTree = "<group>"; };
 		BA19C2681E7A7630007BF5BE /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = test1/MyPlayground.playground; sourceTree = "<group>"; };
 		BA19C2691E7BC770007BF5BE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		BA19C26B1E7BC836007BF5BE /* doclistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doclistViewController.swift; sourceTree = "<group>"; };
 		BA19C26D1E83A2CF007BF5BE /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		BA19C2711E83B2A0007BF5BE /* FakedateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakedateModel.swift; sourceTree = "<group>"; };
+		BA19C2731E84F1ED007BF5BE /* doclistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doclistViewController.swift; sourceTree = "<group>"; };
 		BA5884921E6FF292001BBD74 /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5884951E6FF292001BBD74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA5884971E6FF292001BBD74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,8 +132,9 @@
 				BA19C26D1E83A2CF007BF5BE /* NavigationController.swift */,
 				BA19C2691E7BC770007BF5BE /* LoginViewController.swift */,
 				BA5884C31E6FF7E2001BBD74 /* dbConnectModel.swift */,
-				BA19C26B1E7BC836007BF5BE /* doclistViewController.swift */,
+				BA19C2731E84F1ED007BF5BE /* doclistViewController.swift */,
 				BAB89FA01E76CD470058ECEC /* dataModel.swift */,
+				BA19C2711E83B2A0007BF5BE /* FakedateModel.swift */,
 				BA5884991E6FF292001BBD74 /* Main.storyboard */,
 				BA58849C1E6FF292001BBD74 /* Assets.xcassets */,
 				BA58849E1E6FF292001BBD74 /* LaunchScreen.storyboard */,
@@ -351,11 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA19C2741E84F1ED007BF5BE /* doclistViewController.swift in Sources */,
 				BA5884981E6FF292001BBD74 /* ViewController.swift in Sources */,
 				BAB89FA11E76CD470058ECEC /* dataModel.swift in Sources */,
 				BA5884C41E6FF7E2001BBD74 /* dbConnectModel.swift in Sources */,
-				BA19C26C1E7BC836007BF5BE /* doclistViewController.swift in Sources */,
 				BA19C26A1E7BC770007BF5BE /* LoginViewController.swift in Sources */,
+				BA19C2721E83B2A0007BF5BE /* FakedateModel.swift in Sources */,
 				BA19C26E1E83A2CF007BF5BE /* NavigationController.swift in Sources */,
 				BA5884961E6FF292001BBD74 /* AppDelegate.swift in Sources */,
 			);
